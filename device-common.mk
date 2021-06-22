@@ -16,6 +16,8 @@
 
 LOCAL_PATH := device/samsung/universal7420-common
 
+TARGET_BOOT_ANIMATION_RES := 1440
+
 # Permissions
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
