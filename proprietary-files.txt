@@ -1,4 +1,4 @@
-# All unpinned blobs are from zerofltexx stock (N)
+# All unpinned blobs are from zeroltexx stock (N)
 
 # Fingerprint
 lib/libbauthserver.so

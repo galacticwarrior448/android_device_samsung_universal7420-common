@@ -17,7 +17,7 @@
 LOCAL_PATH := device/samsung/universal7420-common
 
 ifeq ($(BOARD_VENDOR),samsung)
-ifneq ($(filter zerofltedv zerofltemtr zerofltespr zerofltetmo zerofltexx zeroltetmo zeroltexx zerofltebmc zeroltebmc zeroltecan zerofltecan, $(TARGET_DEVICE)),)
+ifneq ($(filter zeroltedv zeroltemtr zeroltespr zeroltetmo zeroltexx zeroltetmo zeroltexx zeroltebmc zeroltebmc zeroltecan zeroltecan, $(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
