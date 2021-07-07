@@ -92,7 +92,7 @@ PRODUCT_PACKAGES += \
 	android.hardware.configstore@1.0-service
 
 # Debugging
--include $(LOCAL_PATH)/system_prop_debug.mk
+#-include $(LOCAL_PATH)/system_prop_debug.mk
 
 # DRM
 PRODUCT_PACKAGES += \
